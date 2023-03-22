@@ -1,0 +1,17 @@
+.bodyProyecto {
+    font-family: 'Nunito', sans-serif;
+}
+
+.fila1 {
+    background-color: aqua;
+    padding: 5px;
+}
+
+.columna1 {
+    background-color: yellow;
+}
+
+.cont {
+    background-color: pink;
+    height: 100vh;
+}
