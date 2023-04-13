@@ -1,17 +1,77 @@
-.bodyProyecto {
-    font-family: 'Nunito', sans-serif;
+* {
+  font-family: "Nunito", sans-serif;
+
+}
+body {
+  font-family: "Nunito", sans-serif;
+  background-image: url(images/ondas.svg);
+  margin: 0 !important;
+
+  background-color: #22193F !important;
+  background-repeat: no-repeat;
+
 }
 
-.fila1 {
-    background-color: aqua;
-    padding: 5px;
+.boxLogin{
+ padding: 5%;
+ ;
 }
 
-.columna1 {
-    background-color: yellow;
+/* Imagen izquierda */
+.bg-image {
+  background-image: url(images/img-login.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  max-height: 100%;
+  min-height: 100%;
+ 
 }
 
-.cont {
-    background-color: pink;
-    height: 100vh;
+/* datos derecha */
+.datosLogIn{
+  background-color: #fff;
+  padding: 5%;
+
+}
+
+h3{
+  padding: 5%;
+
+}
+
+.input{
+  background-color: #fff  !important;
+ border-radius: 8px !important;
+ font-size: 16px !important  ;
+ margin-top: 5%;
+ }
+
+ .recuperaPass:visited, .recuperaPass:active, .recuperaPass:link {
+  color: #E21982;
+  justify-content: right;
+  display: flex;
+  margin-bottom: 5%;
+ }
+ 
+ .btn{
+  background-color: #E21982 !important;
+  border-radius: 20px !important;
+  height: 40px;
+  align-items: center ;
+  font-size: 16px !important  ;
+ }
+ .bi{
+  padding-right: 5px;
+  color: #6A2A83;
+ }
+
+.recuperaPass{
+  font-size: 16px;
+}
+.form-floating{
+  margin-top: 5%;
 }
